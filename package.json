@@ -6,11 +6,24 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "connect": "^3.7.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
-    "ejs": "~2.6.1",
-    "express": "~4.16.1",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
     "http-errors": "~1.6.3",
-    "morgan": "~1.9.1"
-  }
+    "morgan": "^1.10.1"
+  },
+  "description": "This is first node programm",
+  "main": "index1.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernzaaron/assignment-2-express-portfolio.git"
+  },
+  "author": "Aaron Fernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernzaaron/assignment-2-express-portfolio/issues"
+  },
+  "homepage": "https://github.com/fernzaaron/assignment-2-express-portfolio#readme"
 }
